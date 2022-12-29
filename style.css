@@ -69,8 +69,9 @@ button {
 .border {
     border: #3882f6 5px solid;
     border-radius: 10px;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    
 }
 
 main {
@@ -82,4 +83,28 @@ main {
 
 .container {
     display: flex;
+    padding: 50px;
+}
+
+.third {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.four {
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h3 {
+    align-self: flex-end;
 }
