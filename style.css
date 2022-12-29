@@ -1,0 +1,61 @@
+body {
+
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+header {
+    background-color: #1f2937;
+    color: white;
+}
+
+
+.top {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20PX;
+    margin-bottom: 60px;
+
+}
+
+.oden {
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+.hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font: weight 900px;
+}
+
+.para {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    gap: 30px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 30px;
+    width: 120px;
+    font-size: 16px;
+}
