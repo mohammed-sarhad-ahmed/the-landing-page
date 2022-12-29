@@ -8,10 +8,11 @@ body {
 
     margin: 0;
 
-    font-family: roboco;
+    font-family: roboto;
 
 }
 
+footer,
 header {
     background-color: #1f2937;
     color: white;
